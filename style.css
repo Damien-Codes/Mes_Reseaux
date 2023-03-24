@@ -1,39 +1,44 @@
 body{
     background: rgb(2 72 124); /* Green background with 30% opacity */
-    font-family: Glossy Sheen;
-    margin: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5%;
     padding: 0%;
 }
+/* Les liens */
 a{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     text-decoration: none;
-    color: rgb(41, 41, 41);
+    color: black;
 }
+/* Le boutton du haut */
 .nav{
     display: flex;
-    justify-content: center;
-
-
-    background: rgba(255, 140, 140, 0.8);
+    justify-content: center;background: #32b8adb0;
     opacity: 80%;
     list-style-type: none;    
     text-align: center;
-    
-    
     border-radius: 50px;
-    float: center;
     padding: 20px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 0,1%;
     margin-bottom: 0,1%;
     line-height: 5%;
-    box-shadow: 2px 3px 0 rgb(85, 80, 80);
+    box-shadow: 2px 3px 0 rgb(111, 105, 105);
     border-style: solid;
     border-color: black;
-
 }
+/* Après avoir appuier sur le boutton du haut */
+.nav:hover{
+    background-color: #47fa003c;
+    opacity: 60%;
+    transition-duration: 1s, 2s;
+    transform: scale(1.2);
+    border-color: rgb(38, 37, 37);
+    font-style: oblique;
+}
+/* Les bouttons */
 .button{
     font-family: Lucida Console;
     background: rgb(62 129 189);
@@ -42,25 +47,22 @@ a{
     text-align: center;
     box-shadow: 2px 3px 0 rgb(85, 80, 80);
     border-radius: 20px;
-    float: center;
     padding: 20px;
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 0,1%;
     margin-bottom: 0,1%;
     line-height: 5%;
-    box-shadow: 2px 3px 0 rgb(85, 80, 80);
+    box-shadow: 2px 3px 0 rgb(111, 105, 105);
     border-style: solid;
     border-color: black;
 }
+/* Après avoir appuier sur les bouttons */
 .button:hover{
-    background-color: #a39e9e;
+    background-color: #29778b76;
     opacity: 60%;
-    transform: (10deg);
-    transition-property: opacity, left, top, height;
-    transition-duration: 3s, 5s;
+    transition-duration: 1s, 2s;
     transform: scale(1.2);
-    transition-delay: 2s;
-    border-color: rgb(219, 238, 56);
+    border-color: rgb(38, 37, 37);
     font-style: oblique;
 }
