@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(75, 101, 121);
-    margin: 0%;
+    background: rgb(2 72 124); /* Green background with 30% opacity */
+    font-family: Glossy Sheen;
+    margin: 10%;
     padding: 0%;
 }
 a{
@@ -9,17 +10,34 @@ a{
     text-decoration: none;
     color: rgb(41, 41, 41);
 }
-nav{
+.nav{
     display: flex;
     justify-content: center;
+
+
+    background: rgba(255, 140, 140, 0.8);
+    opacity: 80%;
+    list-style-type: none;    
+    text-align: center;
+    
+    
+    border-radius: 50px;
+    float: center;
+    padding: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0,1%;
+    margin-bottom: 0,1%;
+    line-height: 5%;
+    box-shadow: 2px 3px 0 rgb(85, 80, 80);
+    border-style: solid;
+    border-color: black;
+
 }
 .button{
-    display: flex;
-    justify-content: center;
-    border-radius: 5%;
-}
-.button{
-    background-color: #848484;
+    font-family: Lucida Console;
+    background: rgb(62 129 189);
+    opacity: 80%;
     list-style-type: none;    
     text-align: center;
     box-shadow: 2px 3px 0 rgb(85, 80, 80);
@@ -32,5 +50,17 @@ nav{
     margin-bottom: 0,1%;
     line-height: 5%;
     box-shadow: 2px 3px 0 rgb(85, 80, 80);
-    border-radius: 55px;
+    border-style: solid;
+    border-color: black;
+}
+.button:hover{
+    background-color: #a39e9e;
+    opacity: 60%;
+    transform: (10deg);
+    transition-property: opacity, left, top, height;
+    transition-duration: 3s, 5s;
+    transform: scale(1.2);
+    transition-delay: 2s;
+    border-color: rgb(219, 238, 56);
+    font-style: oblique;
 }
