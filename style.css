@@ -97,12 +97,12 @@ nav .reseaux{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: rgb(21, 167, 123);
+    background-color: rgb(77 195 68);
     /* background-color: rgb(93, 56, 197); */
     filter: blur(100px);
     position: absolute;
-    top: 10vh;
-    left: 20vw;
+    top: 13vh;
+    left: 14vw;
     z-index: -1;
 }
 
@@ -110,11 +110,11 @@ nav .reseaux{
     width: 500px;
     height: 500px;
     border-radius: 50%;
-    background-color: rgb(209, 69, 87);
+    background-color: rgb(217 52 85);
     /* background-color: rgb(35, 175, 133); */
     filter: blur(100px);
     position: absolute;
-    top: 43vh;
+    top: 55vh;
     left: -45vw;
     z-index: -1;
 }
