@@ -102,7 +102,7 @@ nav .reseaux{
     filter: blur(100px);
     position: absolute;
     top: 13vh;
-    left: 14vw;
+    left: 20vw;
     z-index: -1;
 }
 
