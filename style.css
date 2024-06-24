@@ -82,40 +82,40 @@ nav .reseaux{
     font-size: x-small;
 }
 .circle-1 {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-color: #007bff;
-    filter: blur(180px);
+    filter: blur(120px);
     position: absolute;
-    top: 40%;
-    left: 120%;
+    top: 30%;
+    left: 70%;
     transform: translate(-90%, -10%);
     z-index: -1;
 }
 
 .circle-2 {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-color: rgb(90, 45, 212);
-    filter: blur(180px);
+    filter: blur(120px);
     position: absolute;
-    top: -40%;
-    left: 90%;
+    top: -14%;
+    right: -90%;
     transform: translate(-90%, -10%);
     z-index: -1;
 }
 
 .circle-3 {
-    width: 700px;
-    height: 700px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-color: rgb(35, 175, 133);
-    filter: blur(180px);
+    filter: blur(120px);
     position: absolute;
     top: 5%;
-    right: -240%;
+    right: -190%;
     transform: translate(-90%, -10%);
     z-index: -1;
 }
