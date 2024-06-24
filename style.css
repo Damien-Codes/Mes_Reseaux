@@ -8,7 +8,6 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    position: fixed;
 }
 ul{
     list-style-type: none;
@@ -89,7 +88,7 @@ nav .reseaux{
     background-color: #007bff;
     filter: blur(180px);
     position: absolute;
-    top: 80%;
+    top: 40%;
     left: 120%;
     transform: translate(-90%, -10%);
     z-index: -1;
@@ -102,7 +101,7 @@ nav .reseaux{
     background-color: rgb(90, 45, 212);
     filter: blur(180px);
     position: absolute;
-    top: -30%;
+    top: -40%;
     left: 90%;
     transform: translate(-90%, -10%);
     z-index: -1;
@@ -115,7 +114,7 @@ nav .reseaux{
     background-color: rgb(35, 175, 133);
     filter: blur(180px);
     position: absolute;
-    top: 30%;
+    top: 5%;
     right: -240%;
     transform: translate(-90%, -10%);
     z-index: -1;
