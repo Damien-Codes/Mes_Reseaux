@@ -101,8 +101,8 @@ nav .reseaux{
     /* background-color: rgb(93, 56, 197); */
     filter: blur(100px);
     position: absolute;
-    top: 9vh;
-    left: 25vw;
+    top: 15vh;
+    left: 20vw;
     z-index: -1;
 }
 
@@ -114,7 +114,7 @@ nav .reseaux{
     /* background-color: rgb(35, 175, 133); */
     filter: blur(100px);
     position: absolute;
-    top: 40vh;
-    left: -50vw;
+    top: 43vh;
+    left: -35vw;
     z-index: -1;
 }
