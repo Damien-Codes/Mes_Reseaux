@@ -59,6 +59,8 @@ a{
     margin: 0%;
     margin-top: 3%;
     line-height: 5%;
+    width: 70vw;
+    margin-right: 15vw;
 }
 /* Après avoir appuier sur les bouttons */
 /* .button:hover{
@@ -71,7 +73,6 @@ a{
 } */
 nav .reseaux{
     font-family: Lucida Console;
-    margin-left: 5vw;
     text-align: center;
     font-size: xx-large;
 }
