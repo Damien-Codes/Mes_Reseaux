@@ -23,7 +23,6 @@ a{
     position: relative; /* Permettre le positionnement des cercles */
     text-align: center; /* Center text within container (optional) */
     height: 100vh; /* Définir la hauteur du conteneur */
-    overflow: hidden;
 }
 .nav{
     display: flex;
