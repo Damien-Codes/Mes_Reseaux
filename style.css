@@ -1,120 +1,248 @@
 body {
-    background: rgb(204, 210, 214);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-}
-ul{
-    list-style-type: none;
-}
-a{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-    color: black;
-}
-.container {
-    position: relative; /* Permettre le positionnement des cercles */
-    text-align: center; /* Center text within container (optional) */
-    height: 100vh; /* Définir la hauteur du conteneur */
-}
-.nav{
-    display: flex;
-    justify-content: center;
-    opacity: 80%;
-    list-style-type: none;    
-    text-align: center;
-    border-radius: 50px;
-    padding: 20px;
-    margin-top: 0,1%;
-    margin-bottom: 0,1%;
-    line-height: 5%;
-    box-shadow: 2px 3px 0 rgb(111, 105, 105);
-    border-style: solid;
-    border-color: black;
-}
-/* Après avoir appuier sur le boutton du haut */
-/* .nav:hover{
-    background-color: #47fa003c;
-    opacity: 60%;
-    transition-duration: 1s, 2s;
-    transform: scale(1.2);
-    border-color: rgb(38, 37, 37);
-    font-style: oblique;
-} */
-/* Les bouttons */
-.button{
-    font-family: Lucida Console;
-    background: rgba(255, 255, 255, 0);
-    list-style-type: none;
-    text-align: center;
-    box-shadow: 2px 3px 0 rgb(85, 80, 80);
-    border-radius: 50px;
-    padding: 20px;
-    margin: 0%;
-    margin-top: 3%;
-    line-height: 5%;
-    width: 70vw;
-    margin-right: 15vw;
-}
-/* Après avoir appuier sur les bouttons */
-/* .button:hover{
-    background-color: #29778b76;
-    opacity: 60%;
-    transition-duration: 1s, 2s;
-    transform: scale(1.2);
-    border-color: rgb(38, 37, 37);
-    font-style: oblique;
-} */
-nav .reseaux{
-    font-family: Lucida Console;
-    text-align: center;
-    font-size: xx-large;
-}
-.me{
-    font-family: Lucida Console;
-    text-align: center;
-    font-size: x-small;
-}
-.circle-1 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: #007bff;
-    filter: blur(100px);
-    position: absolute;
-    top: -15vh;
-    left: -30vw;
-    z-index: -1;
+  background: rgb(204, 210, 214);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
 }
 
-.circle-2 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: rgb(56 185 46);
-    /* background-color: rgb(93, 56, 197); */
-    filter: blur(100px);
-    position: absolute;
-    top: 13vh;
-    left: 20vw;
-    z-index: -1;
+@media screen and (min-width: 426px){
+    .menu{
+        column-count: 2;
+        justify-content: center;
+    }
+    ul{
+        list-style-type: none;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+    }
+    .container {
+        position: relative; /* Permettre le positionnement des cercles */
+        text-align: center; /* Center text within container (optional) */
+        height: 100vh; /* Définir la hauteur du conteneur */
+        justify-content: center;
+        padding-top: 20vh;
+        /* margin-left: -40vw; */
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        opacity: 80%;
+        list-style-type: none;    
+        text-align: center;
+        border-radius: 50px;
+        padding: 20px;
+        margin-top: 0,1%;
+        margin-bottom: 0,1%;
+        line-height: 5%;
+        box-shadow: 2px 3px 0 rgb(111, 105, 105);
+        border-style: solid;
+        border-color: black;
+    }
+    /* Après avoir appuier sur le boutton du haut */
+    /* .nav:hover{
+        background-color: #47fa003c;
+        opacity: 60%;
+        transition-duration: 1s, 2s;
+        transform: scale(1.2);
+        border-color: rgb(38, 37, 37);
+        font-style: oblique;
+    } */
+    /* Les bouttons */
+    .button{
+        font-family: Lucida Console;
+        background: rgba(255, 255, 255, 0);
+        box-shadow: 2px 3px 0 rgb(85, 80, 80);
+        border-radius: 50px;
+        padding: 20px;
+        line-height: 7vh;
+        width: 35vw;
+    }
+    /* Après avoir appuier sur les bouttons */
+    /* .button:hover{
+        background-color: #29778b76;
+        opacity: 60%;
+        transition-duration: 1s, 2s;
+        transform: scale(1.2);
+        border-color: rgb(38, 37, 37);
+        font-style: oblique;
+    } */
+    nav .reseaux{
+        font-family: Lucida Console;
+        text-align: center;
+        font-size: 7vh;
+    }
+    .me{
+        font-family: Lucida Console;
+        text-align: center;
+        font-size: x-small;
+    }
+    .circle-1 {
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background-color: rgb(192, 217, 52);
+        filter: blur(10vw);
+        position: absolute;
+        top: -10vh;
+        left: -10vw;
+        z-index: -1;
+    }
+    
+    .circle-2 {
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background-color: rgb(55, 185, 46);
+        filter: blur(10vw);
+        position: absolute;
+        top: -30vh;
+        right: 10vw;
+        z-index: -1;
+    }
+    
+    .circle-3 {
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background-color: rgb(217, 52, 168);
+        filter: blur(10vw);
+        position: absolute;
+        top: 60vh;
+        right: 40vw;
+        z-index: -1;
+    }
+    .circle-4 {
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+        background-color: #e2a623;
+        
+        filter: blur(10vw);
+        position: absolute;
+        top: 50vh;
+        right: -10vw;
+        z-index: -1;
+    }
 }
 
-.circle-3 {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    background-color: rgb(217 52 85);
-    /* background-color: rgb(35, 175, 133); */
-    filter: blur(100px);
-    position: absolute;
-    top: 55vh;
-    left: -45vw;
-    z-index: -1;
+@media screen and (max-width: 425px) {
+    ul{
+        list-style-type: none;
+    }
+    a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        color: black;
+    }
+    .container {
+        position: relative;
+        text-align: center; 
+        height: 100vh;
+        width: 100vw;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        opacity: 80%;
+        list-style-type: none;    
+        text-align: center;
+        border-radius: 50px;
+        padding: 20px;
+        margin-top: 0,1%;
+        margin-bottom: 0,1%;
+        line-height: 5%;
+        box-shadow: 2px 3px 0 rgb(111, 105, 105);
+        border-style: solid;
+        border-color: black;
+    }
+    /* Après avoir appuier sur le boutton du haut */
+    /* .nav:hover{
+        background-color: #47fa003c;
+        opacity: 60%;
+        transition-duration: 1s, 2s;
+        transform: scale(1.2);
+        border-color: rgb(38, 37, 37);
+        font-style: oblique;
+    } */
+    /* Les bouttons */
+    .button{
+        font-family: Lucida Console;
+        background: rgba(255, 255, 255, 0);
+        list-style-type: none;
+        text-align: center;
+        box-shadow: 2px 3px 0 rgb(85, 80, 80);
+        border-radius: 50px;
+        padding: 20px;
+        margin: 0%;
+        margin-top: 3%;
+        line-height: 5%;
+        width: 70vw;
+        margin-right: 15vw;
+    }
+    /* Après avoir appuier sur les bouttons */
+    /* .button:hover{
+        background-color: #29778b76;
+        opacity: 60%;
+        transition-duration: 1s, 2s;
+        transform: scale(1.2);
+        border-color: rgb(38, 37, 37);
+        font-style: oblique;
+    } */
+    nav .reseaux{
+        font-family: Lucida Console;
+        text-align: center;
+        font-size: xx-large;
+    }
+    .me{
+        font-family: Lucida Console;
+        text-align: center;
+        font-size: x-small;
+    }
+    .circle-1 {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: #007bff;
+        filter: blur(100px);
+        position: absolute;
+        top: -15vh;
+        left: -30vw;
+        z-index: -1;
+    }
+    
+    .circle-2 {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: rgb(56 185 46);
+        /* background-color: rgb(93, 56, 197); */
+        filter: blur(100px);
+        position: absolute;
+        top: 13vh;
+        left: 20vw;
+        z-index: -1;
+    }
+    
+    .circle-3 {
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-color: rgb(217 52 85);
+        /* background-color: rgb(35, 175, 133); */
+        filter: blur(100px);
+        position: absolute;
+        top: 55vh;
+        left: -45vw;
+        z-index: -1;
+    }
 }
