@@ -1,49 +1,65 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Damien PINO | Développeur Full-Stack</title>
     <link rel="icon" href="header-gold.svg">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <button class="theme-toggle">
+    <button class="theme-toggle" aria-label="Changer le thème">
         <i class="fas fa-sun"></i>
         <i class="fas fa-moon"></i>
     </button>
 
     <div class="container">
-        <header>
+        <header data-animate="fade-up">
             <h1 class="name">Damien PINO</h1>
-            <h2 class="subtitle">Développeur Full-Stack | Retrouvez-moi sur</h2>
+            <p class="subtitle">Développeur Full-Stack · Retrouvez-moi sur</p>
         </header>
-        
+
         <nav class="grid-container">
-            <a href="https://damien-codes.github.io/Portfolio" class="card">
+            <a href="https://damien-codes.github.io/Portfolio" class="card" data-animate="fade-up"
+                style="animation-delay: 0.1s">
                 <i class="fas fa-briefcase"></i>
                 <span>Portfolio</span>
             </a>
-            <a href="https://www.linkedin.com/in/damien-pino-200280195/" class="card">
+            <a href="https://www.linkedin.com/in/damien-pino-200280195/" class="card" data-animate="fade-up"
+                style="animation-delay: 0.2s">
                 <i class="fab fa-linkedin"></i>
                 <span>LinkedIn</span>
             </a>
-            <a href="https://github.com/Damien-Codes" class="card">
+            <a href="https://github.com/Damien-Codes" class="card" data-animate="fade-up" style="animation-delay: 0.3s">
                 <i class="fab fa-github"></i>
                 <span>GitHub</span>
             </a>
-            <a href="https://fr.fiverr.com/devdamien?public_mode=true" class="card">
+            <a href="https://fr.fiverr.com/devdamien?public_mode=true" class="card" data-animate="fade-up"
+                style="animation-delay: 0.4s">
                 <i class="fas fa-handshake"></i>
                 <span>Fiverr</span>
             </a>
-            <a href="https://damien-codes.github.io/Web-Extension-Site/" class="card">
-                <i class="fa-solid fa-globe"></i>
-                <span>Mon Extension Web</span>
+            <a href="https://damien-codes.github.io/Web-Extension-Site/" class="card" data-animate="fade-up"
+                style="animation-delay: 0.5s">
+                <span class="material-icons"
+                    style="font-size: 2.5rem; color: var(--secondary);">picture_in_picture</span>
+                <span>PiP QR</span>
+            </a>
+            <a href="https://damien-codes.github.io/Web-Extension-Site/" class="card" data-animate="fade-up"
+                style="animation-delay: 0.6s">
+                <i class="fa-solid fa-balance-scale"></i>
+                <span>QuantScale</span>
             </a>
         </nav>
     </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
